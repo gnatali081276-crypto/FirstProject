@@ -398,16 +398,16 @@
 #
 # import random
 #
-# SIZE = 3
-# matrix = []
-#
-# print(matrix)
-# for i in range(SIZE):
-#     matrix.append([])
-#     print(matrix)
-#     for j in range(SIZE):
-#         matrix[i].append(random.randint(10, 99))
-#         print(matrix)
+SIZE = 3
+matrix = []
+
+print(matrix)
+for i in range(SIZE):
+    matrix.append([])
+    print(matrix)
+    for j in range(SIZE):
+        matrix[i].append(random.randint(10, 99))
+        print(matrix)
 
 # print(matrix)
 # # #
